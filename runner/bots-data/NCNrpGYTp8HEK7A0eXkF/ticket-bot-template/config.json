@@ -1,0 +1,10 @@
+{
+  "token": "توكن البوت هنا",
+  "guildId": "آيدي السيرفر هنا",
+  "panelChannelId": "آيدي قناة اللوحة هنا",
+  "supportRoleId": "آيدي رتبة الدعم هنا",
+  "categoryId": "آيدي قسم التذاكر هنا",
+  "embedColor": "#000000",
+  "footerText": "Powered by Cloud Hosting",
+  "closeCommand": "-اغلاق"
+}
