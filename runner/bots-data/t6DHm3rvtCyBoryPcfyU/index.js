@@ -1,0 +1,1 @@
+require('./group_bot.js');
