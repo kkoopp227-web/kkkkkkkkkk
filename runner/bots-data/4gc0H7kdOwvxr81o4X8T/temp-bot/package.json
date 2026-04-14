@@ -1,0 +1,9 @@
+{
+  "name": "welcome-bot",
+  "version": "1.0.0",
+  "description": "Discord Welcome Bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
