@@ -17,7 +17,9 @@ const startingBots = new Set();
 
 // === Start the System Notification Bot in the background ===
 const { fork } = require('child_process');
-const systemBotProc = fork(path.join(__dirname, 'system.bot.js'));
+const systemBotProc = fork(path.join(__dirname, 'system.bot.js'), [], {
+    env: { ...process.env }
+});
 
 systemBotProc.on('error', (err) => {
     console.error('❌ System Bot Process Error:', err);
