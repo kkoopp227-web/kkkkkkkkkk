@@ -1,0 +1,12 @@
+{
+  "name": "discord-invite-bot",
+  "version": "1.0.0",
+  "description": "Simple Bot to share permanent server invite links",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
